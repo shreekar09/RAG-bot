@@ -1,0 +1,112 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Lib/
+Library/
+Scripts/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python environment files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs and outputs
+*.log
+*.out
+*.pid
+
+# Secrets and credentials
+*.env
+.env.*
+secrets.json
+config.json
+
+# Cache and temporary files
+.cache/
+*.sqlite3
+*.db
+*.pkl
+*.joblib
+
+# Local vector store files (e.g., Chroma, FAISS, Milvus, etc.)
+chroma/
+index/
+faiss_index/
+milvus_data/
+*.lancedb/
+*.parquet
+*.h5
+
+# Datasets and raw docs
+data/
+datasets/
+docs/
+pdfs/
+uploads/
+downloads/
+
+# Streamlit or Gradio temp files
+.streamlit/
+gradio_cached_examples/
+
+# Node.js for frontend (optional)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pyright/Pylance
+pyrightconfig.json
+mypy_cache/
+.dmypy.json
+.pyre/
+
+# Testing
+coverage/
+*.cover
+*.py,cover
+htmlcov/
+
+# Models
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# LangChain or other local DBs
+lc-logs/
+lc_cache/
+.db/
+
+# FastAPI or Flask specific
+instance/
+*.db
+*.sqlite
+__pycache__/
+
+# Docker
+*.tar
+*.dockerfile
